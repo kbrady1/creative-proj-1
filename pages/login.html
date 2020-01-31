@@ -19,26 +19,22 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/index.html">Home</a>
         <a class="nav-item nav-link" href="/pages/findFlights.html">Find Flights</a>
         <a class="nav-item nav-link" href="/pages/myFlight.html">View My Flight</a>
       </div>
     </div>
-    <form class="form-inline" action="/pages/login.html">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-    </form>
   </nav>
 
-  <div class="holder">
+  <div class="holder full-size">
     <img class="image-background" src="/images/airplane-background.jpg" alt="">
-    <div class="over-image">
-      <h1>Fly With Omega</h1>
-      <ul>
-        <li>Fly to 200+ countries</li>
-        <li>Earn frequent flier miles faster</li>
-        <li>Bundle your flight and hotel to save</li>
-        <li>Travel in luxury</li>
-      </ul>
+    <div class="over-image-center card">
+      <h2 class="card-item">Login to MyOmega</h2>
+      <input class="card-item form-control mr-sm-2" type="email" placeholder="Username" aria-label="Username">
+      <input class="card-item form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+      <form class="form-inline card-item" action="/pages/myFlight.html">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log In</button>
+      </form>
     </div>
   </div>
 

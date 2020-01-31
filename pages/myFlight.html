@@ -8,7 +8,7 @@
   <title>Fly Omega</title>
 </head>
 
-<body class="body-blue">
+<body>
   <nav class="navbar sticky-top navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="#">
       <img src="/images/omega-logo.png" width="30" height="30" class="d-inline-block align-top" alt="airline logo">
@@ -19,9 +19,9 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="/index.html">Home</a>
         <a class="nav-item nav-link" href="/pages/findFlights.html">Find Flights</a>
-        <a class="nav-item nav-link" href="/pages/myFlight.html">View My Flight</a>
+        <a class="nav-item nav-link active" href="/pages/myFlight.html">View My Flight<span class="sr-only">(current)</span></a>
       </div>
     </div>
     <form class="form-inline" action="/pages/login.html">
@@ -29,19 +29,40 @@
     </form>
   </nav>
 
-  <div class="holder">
-    <img class="image-background" src="/images/airplane-background.jpg" alt="">
-    <div class="over-image">
-      <h1>Fly With Omega</h1>
-      <ul>
-        <li>Fly to 200+ countries</li>
-        <li>Earn frequent flier miles faster</li>
-        <li>Bundle your flight and hotel to save</li>
-        <li>Travel in luxury</li>
-      </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg" align="center">
+        <div class="my-flight-header">
+          <h1>Flight OM9785</h1>
+          <h5 style="color: green;">ON TIME</h5>
+        </div>
+        <img class="flight-map" src="/images/flight-map.png" alt="Map of Flight Path">
+        <div class="my-flight-details">
+          <div class="my-flight-row">
+            <h6>BOARDING IN</h6>
+            <div class="my-flight-detail-text">
+              09 mins
+            </div>
+          </div>
+          <div class="my-flight-row">
+            <h6>Departure</h6>
+            <div class="my-flight-detail-text">
+              07:53 am
+            </div>
+          </div>
+          <div class="my-flight-row">
+            <h6>Arrival</h6>
+            <div class="my-flight-detail-text">
+              09:57 am
+            </div>
+          </div>
+          <p>Other Details: Beverages included. One free meal available per traveller in-flight.
+            Other beverages available for purchase. Limited Overhead space. All times listed above are in the airport's local time.</p>
+        </div>
+
+      </div>
     </div>
   </div>
-
 
   <footer class="footer">
     <div class="container">
